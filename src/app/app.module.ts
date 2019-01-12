@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { UsingSimplePdfViewerComponent } from './components/using-simple-pdf-viewer/using-simple-pdf-viewer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UsingSimplePdfViewerComponent
   ],
   imports: [
     BrowserModule,
